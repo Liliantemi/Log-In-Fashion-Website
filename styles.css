@@ -1,0 +1,163 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.section {
+  width: 40%;
+  float: left;
+  overflow: hidden;
+}
+
+.img1 {
+  width: 90%;
+  height: auto;
+  display: block;
+}
+
+main {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.section2 {
+  width: 60%;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ffffff;
+  padding-left: 5px;
+  margin-bottom: 0px;
+}
+
+.wordh1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding-left: 50px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.h1 {
+  color: #d7a037;
+  font-family: courier;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.h2 {
+  color: #222222;
+  font-family: Verdana;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.h3 {
+  color: #848484;
+  font-family: Verdana;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.form {
+  padding-left: 60px;
+  padding-right: 200px;
+  font-family: verdana;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.firstname {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 10px;
+}
+
+.firstnameinput {
+  padding: 20px 18px;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #f7f8f9;
+}
+
+#closedeye {
+  position: relative;
+}
+
+.img2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 15px;
+  top: 38px;
+}
+
+.forgottenpassword {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 205px;
+  color: #66928b;
+  font-weight: 300;
+}
+
+.buttonclass {
+  margin-top: 120px;
+  gap: 35px;
+  display: flex;
+}
+
+.activebutton {
+  padding: 15px 18px;
+  width: 600px;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 60px;
+  border-color: #66928b;
+  color: #ffffff;
+  background-color: #66928b;
+  outline-color: #66928b;
+  font-size: 20px;
+}
+
+.noaccount {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-left: 200px;
+  margin-left: 0px;
+  color: #222222;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.createaccount {
+  display: flex;
+  flex-direction: row;
+  color: #66928b;
+  margin-left: 5px;
+  font-weight: 300;
+}
