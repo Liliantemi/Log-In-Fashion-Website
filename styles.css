@@ -129,17 +129,22 @@ main {
   display: flex;
 }
 
-.activebutton {
+.hoverbutton {
   padding: 15px 18px;
   width: 600px;
-  border-radius: 8px;
+  font-size: 20px;
   margin-top: 50px;
   margin-left: 60px;
-  border-color: #66928b;
-  color: #ffffff;
   background-color: #66928b;
-  outline-color: #66928b;
-  font-size: 20px;
+  border-color: #66928b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hoverbutton:hover {
+  background-color: #d7a037;
 }
 
 .noaccount {
